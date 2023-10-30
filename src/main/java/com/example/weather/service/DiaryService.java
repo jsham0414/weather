@@ -51,7 +51,6 @@ public class DiaryService {
 
     final private String city = "seoul";
 
-    @Transactional
     private Map<String, Object> getWeatherData() {
         // 위치 정보 가져오기
         String geoResult = getCoordinateString();
